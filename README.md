@@ -124,6 +124,13 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ### User interphase
 
+In this project, I was required to use  environment variables to configure and run a Python script via the command-line interface (CLI). By setting these variables, I securely managed important configuration details such as API tokens and OpenSearch cluster information, ensuring a safe and flexible execution of the script
+
+
+#### Option A
+
+The script fetches and uploads data in batches defined by page_size multiplied by num_pages, excluding null values and instances where starfire_incident_id and incident_datetime are null.
+
 ```shell
 
 docker run \
@@ -137,6 +144,9 @@ project01:1.0 --page_size=100 --num_pages=5
 
 ```
 
+#### Option B
+
+When num_pages is not specified, the script uploads the entire dataset in chunks of size determined by num_pages, excluding null values and cases where starfire_incident_id and incident_datetime are null.
 
 
 ```shell
@@ -282,7 +292,11 @@ project01:1.0 --page_size=50000
 - [Monitoring Application KPIs Using Structured Logging with Elasticsearch & Kibana](https://medium.com/@stavsofer/monitoring-application-kpi-structured-logging-elasticsearch-kibana-212183c7bbdf) 
 
 - [Queries using SODA](https://dev.socrata.com/docs/queries/)
+  
+- [Paging through data](https://dev.socrata.com/docs/paging.html#2.1)
 
-- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580) 
+
+- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580)
+  
 
 
