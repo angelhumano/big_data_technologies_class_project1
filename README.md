@@ -23,16 +23,15 @@ In this Big Data Technology project, I applied the concepts and tools I learned 
 The [Fire Incident Dispatch Data](https://data.cityofnewyork.us/widgets/8m42-w767)
 file originates from the Starfire Computer Aided Dispatch System, tracking incidents from creation to closure. It details resource allocation and the Fire Department's response to emergencies while safeguarding personal information under HIPAA (Health Insurance Portability and Accountability Act) by aggregating incident locations.
 
-[Data schema] (https://dev.socrata.com/foundry/data.cityofnewyork.us/8m42-w767)
+
 
 NYC Open Data provides free datasets, including large ones. They offer an API for easy data retrieval. I use a Python client to fetch Fire Incident Dispatch Data from the API.
 
-Obtain an app [token]( https://data.cityofnewyork.us/login)
+- [Data schema](https://dev.socrata.com/foundry/data.cityofnewyork.us/8m42-w767)
+  
+- Obtained an app [token]( https://data.cityofnewyork.us/login)
 
-Used [Socrata Open Data API](https://dev.socrata.com/)
-
-
-
+- Used [Socrata Open Data API](https://dev.socrata.com/)
 
 
 
@@ -42,6 +41,7 @@ Used [Socrata Open Data API](https://dev.socrata.com/)
 
 Next, I took a moment to think about important questions and suitable indicators to enhance my understanding and analysis of the data. This was a purposeful step to make sure that my data exploration remained relevant and meaningful.
 
+### KPIs
 
 - KPI # 1: Number of incidents by borough 
 - KPI # 2: Total engine assigned by zip codes
@@ -49,6 +49,7 @@ Next, I took a moment to think about important questions and suitable indicators
 - KPI # 4: Number of incidents by the borough over time
 - World cloud: Frequency of incident by fire incident classification
 
+### Questions
 - Which borough has more fire incidents?
 - Which five zip codes are assigned the total highest number of engines?
 - Which are the top two boroughs by assigned ladders on average?
@@ -71,7 +72,6 @@ Next, I took a moment to think about important questions and suitable indicators
 
 
 
-
 ## Project workflow
 
 After setting up an EC2 instance on AWS, I developed a Python script within Docker to retrieve data from the NYC Open Data via their API and transmit it to OpenSearch. I made sure the data bypassed my EC2 instance and was directly streamed to OpenSearch. Once the data was accessible in OpenSearch, I generated multiple AWS Kibana  to create a dashboard to explore the data and uncover insights.
@@ -83,7 +83,6 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ### Project composition
 
-project01/
 - +-- Dockerfile
 - +-- requirements.txt
 - +-- src/
@@ -97,6 +96,9 @@ project01/
 - +-- +-- Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png
 - +-- +-- Dashboard_with_all_visualizations.png
 - +-- README.pd
+
+
+
 
 
 ## Key insights :bulb:
