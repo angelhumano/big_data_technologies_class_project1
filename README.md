@@ -1,5 +1,13 @@
 # big_data_technologies_class_project1
 
+This document is being updated at the moment.
+Task remaining:
+
+- Write project bites
+- Check spelling
+- Write insights
+- Wire lessons learned
+
 
 ## Project bites :chocolate_bar:
 
@@ -90,6 +98,16 @@ Next, I took a moment to think about important questions and suitable indicators
 
 After setting up an EC2 instance on AWS, I developed a Python script within Docker to retrieve data from the NYC Open Data via their API and transmit it to OpenSearch. I made sure the data bypassed my EC2 instance and was directly streamed to OpenSearch. Once the data was accessible in OpenSearch, I generated multiple AWS Kibana  to create a dashboard to explore the data and uncover insights.
 
+### Docker
+
+```shell
+
+Build docker image
+docker build -t project01:1.0 .
+```
+- [See Docker file](Dockerfile) 
+- [See requirement file](requirements.txt)
+
 
 ### Python scripting
 
@@ -102,7 +120,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 -  1 hour and 45 minutes
 
--  
+- The minimum requirement was to collect 100,000 rows, but I collected almost 8 million rows.
 
 ### Project composition
 
@@ -189,7 +207,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 
 
-### In ourt data: "Medical - Assist Civilian" is the most frequent incident in NYC (2005-2021)
+### In our data: "Medical - Assist Civilian" is the most frequent incident in NYC (2005-2021)
 
 ![fire_incident_classification](assets/Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png)
 
@@ -208,12 +226,14 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ### Putting all visualizations together
 
-![Dashboard](assets/Dashboard_with_all_visualizations.pdf) 
+![Dashboard](assets/Dashboard_with_all_visualizations.png) 
 
 [Click here, to see a PDF versions](assets/Dashboard_with_all_visualizations.pdf)
 
 
 ## Key insights :bulb:
+
+
 
 
 ### Lessons learned :sparkles:
