@@ -122,6 +122,39 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 - The minimum requirement was to collect 100,000 rows, but I collected almost 8 million rows.
 
+### User interphase
+
+```shell
+
+docker run \
+-e DATASET_ID="8m42-w767" \
+-e APP_TOKEN="your_key" \
+-e ES_HOST="your_opensearch_domain" \
+-e ES_USERNAME="your_openseact_user_name" \
+-e ES_PASSWORD="_your_opensearch_password" \
+-e INDEX_NAME="fireincident" \
+project01:1.0 --page_size=100 --num_pages=5
+
+```
+
+
+
+```shell
+
+docker run \
+-e DATASET_ID="8m42-w767" \
+-e APP_TOKEN="your_key" \
+-e ES_HOST="your_opensearch_domain" \
+-e ES_USERNAME="your_openseact_user_name" \
+-e ES_PASSWORD="_your_opensearch_password" \
+-e INDEX_NAME="fireincident" \
+project01:1.0 --page_size=50000
+
+
+```
+
+
+
 ### Project composition
 
 - +-- Dockerfile
