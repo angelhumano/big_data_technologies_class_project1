@@ -43,24 +43,24 @@ Used [Socrata Open Data API](https://dev.socrata.com/)
 Next, I took a moment to think about important questions and suitable indicators to enhance my understanding and analysis of the data. This was a purposeful step to make sure that my data exploration remained relevant and meaningful.
 
 
-KPI # 1: Number of incidents by borough 
-KPI # 2: Total engine assigned by zip codes
-KPI # 3: Average ladders assigned by borough
-KPI # 4: Number of incidents by the borough over time
-World cloud: Frequency of incident by fire incident classification
+- KPI # 1: Number of incidents by borough 
+- KPI # 2: Total engine assigned by zip codes
+- KPI # 3: Average ladders assigned by borough
+- KPI # 4: Number of incidents by the borough over time
+- World cloud: Frequency of incident by fire incident classification
 
-Which borough has more fire incidents?
-Which five zip codes are assigned the total highest number of engines?
-Which are the top two boroughs by assigned ladders on average?
-What happened to fire incidents during the pandemic?
-Answer: If we look at KPI # 4: Fire incident reports by borough in NYC (2005 - 2021). 
-What is the most frequent classification of fire incidents?
+- Which borough has more fire incidents?
+- Which five zip codes are assigned the total highest number of engines?
+- Which are the top two boroughs by assigned ladders on average?
+- What happened to fire incidents during the pandemic?
+- Answer: If we look at KPI # 4: Fire incident reports by borough in NYC (2005 - 2021). 
+- What is the most frequent classification of fire incidents?
 
 
 
 | Field Name                | Data Type | Field Description                                                           |
 |---------------------------|-----------|-------------------------------------------------------------------------------|
-| starfire_incident_id      | number    | An incident identifier comprising the 5 character julian date, 4 character... |
+| starfire_incident_id      | number    | an incident identifier comprising the 5 character julian date, 4 character alarm box number, 2 character number of incidents at the box so far for the day, 1 character borough code , 4 character sequence number.|
 | incident_datetime         | datetime  | The date and time of the incident.                                           |
 | incident_borough          | text      | The borough of the incident.                                                 |
 | zipcode                   | text      | The zip code of the incident.                                                |
@@ -84,19 +84,19 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 ### Project composition
 
 project01/
-+-- Dockerfile
-+-- requirements.txt
-+-- src/
-+-- +-- main.py
-+-- assets/
-+-- +-- Gauge_chart_total_number_of_rows.png
-+-- +-- KPI_1_Number_of_incidents_by_borough_in_NYC_2005_2021.png
-+-- +-- KPI_2_Top_20_zip_codes_by_total_engine_assigned_in_NYC_2005_2021.png
-+-- +-- KPI_3_The_Bronx_and_Brooklyn_are_assigned_more_ladders_on_average_in_NYC_2005_2021.png
-+-- +--KPI_4_Fire_incident_reports_by_borough_in_NYC_2005_2021.png
-+-- +-- Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png
-+-- +-- Dashboard_with_all_visualizations.png
-+-- README.pd
+- +-- Dockerfile
+- +-- requirements.txt
+- +-- src/
+- +-- +-- main.py
+- +-- assets/
+- +-- +-- Gauge_chart_total_number_of_rows.png
+- +-- +-- KPI_1_Number_of_incidents_by_borough_in_NYC_2005_2021.png
+- +-- +-- KPI_2_Top_20_zip_codes_by_total_engine_assigned_in_NYC_2005_2021.png
+- +-- +-- KPI_3_The_Bronx_and_Brooklyn_are_assigned_more_ladders_on_average_in_NYC_2005_2021.png
+- +-- +--KPI_4_Fire_incident_reports_by_borough_in_NYC_2005_2021.png
+- +-- +-- Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png
+- +-- +-- Dashboard_with_all_visualizations.png
+- +-- README.pd
 
 
 ## Key insights :bulb:
