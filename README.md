@@ -168,7 +168,49 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 
 
+### KPI 3: Top boroughs for average ladder assignments in NYC (2005-2021)
 
+![ladders_by_borough](assets/KPI_3_The_Bronx_and_Brooklyn_are_assigned_more_ladders_on_average_in_NYC_2005_2021.png)
+
+#### Observations:
+
+- The top two boroughs with the highest average ladder assignments are The Bronx and Brooklyn.
+
+<br>
+<br>
+
+### KPI 4: Fire incident reports by borough in NYC (2005-2021)
+
+![fire_incidents_by_borough](assets/KPI_4_Fire_incident_reports_by_borough_in_NYC_2005_2021.png)
+
+#### Observations:
+
+- It appears that the number of incidents decreased during the pandemic. However, such an extreme decline across all boroughs is better explained by missing data. During the pandemic many numerous public services were disrupted as a result.
+
+
+
+
+### In ourt data: "Medical - Assist Civilian" is the most frequent incident in NYC (2005-2021)
+
+![fire_incident_classification](assets/Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png)
+
+#### Observations:
+
+- The most frequent classification of fire incidents in NYC is "Medical - Assist Civilian."
+
+- The frequency of this category might be related to the pandemic, but further investigation is needed for confirmation.
+
+<br>
+<br>
+
+
+
+
+### Putting all visualizations together
+
+![Dashboard](assets/Dashboard_with_all_visualizations.png) 
+
+[Click here, to see a PDF versions](Dashboard_with_all_visualizations.pdf)
 
 
 ## Key insights :bulb:
