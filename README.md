@@ -189,7 +189,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 
 
-### In ourt data: "Medical - Assist Civilian" is the most frequent incident in NYC (2005-2021)
+### In our data: "Medical - Assist Civilian" is the most frequent incident in NYC (2005-2021)
 
 ![fire_incident_classification](assets/Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png)
 
@@ -208,7 +208,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ### Putting all visualizations together
 
-![Dashboard](assets/Dashboard_with_all_visualizations.pdf) 
+![Dashboard](assets/Dashboard_with_all_visualizations.png) 
 
 [Click here, to see a PDF versions](assets/Dashboard_with_all_visualizations.pdf)
 
