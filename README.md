@@ -1,5 +1,7 @@
 # big_data_technologies_class_project1
 
+Thi sdocument is being updated at the moment.
+
 
 ## Project bites :chocolate_bar:
 
