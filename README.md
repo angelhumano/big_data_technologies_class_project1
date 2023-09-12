@@ -67,15 +67,15 @@ Next, I took a moment to think about important questions and suitable indicators
 
 
 
-| Field Name                | Data Type | Field Description                                                           |
-|---------------------------|-----------|-------------------------------------------------------------------------------|
-| starfire_incident_id      | number    | an incident identifier comprising the 5 character julian date, 4 character alarm box number, 2 character number of incidents at the box so far for the day, 1 character borough code , 4 character sequence number.|
-| incident_datetime         | datetime  | The date and time of the incident.                                           |
-| incident_borough          | text      | The borough of the incident.                                                 |
-| zipcode                   | text      | The zip code of the incident.                                                |
-| incident_classification   | text      | The incident classification.                                                 |
-| engines_assigned_quantity | number    | The number of engine units assigned to the incident.                         |
-| ladders_assigned_quantity | number    | The number of ladder units assigned to the incident.                         |
+| Field Name                | Data Type   | Field Description                                                           |
+|---------------------------|-----------  |-----------------------------------------------------------------------------|
+| starfire_incident_id      | number      | an incident identifier comprising the 5 character julian date, 4 character alarm box number, 2 character number of incidents at the box so far for the day, 1 character borough code , 4 character sequence number.|
+| incident_datetime         | datetime    | The date and time of the incident.                                           |
+| incident_borough          | text        | The borough of the incident.                                                 |
+| zipcode                   | text        | The zip code of the incident.                                                |
+| incident_classification   | text        | The incident classification.                                                 |
+| engines_assigned_quantity | number      | The number of engine units assigned to the incident.                         |
+| ladders_assigned_quantity | number      | The number of ladder units assigned to the incident.                         |
 
 
 
