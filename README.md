@@ -97,7 +97,8 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 **Data colelction time**
 
-![collection_tim](images/data_collection_time.png)
+![collection_time](assets/data_collection_time.png)
+
 
 -  1 hour and 45 minutes
 
@@ -130,13 +131,11 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ![collection_time](assets/Gauge_chart_total_number_of_rows.png)
 
-
 #### Observations: 
 
 - I collected 7,966,877 incidents.
 
-- 
-
+  
 <br>
 <br>
 
@@ -194,6 +193,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ![fire_incident_classification](assets/Medical_Assistant_Civilian_is_the_most_frequent_fire_incident_in_NYC_2005_2021.png)
 
+
 #### Observations:
 
 - The most frequent classification of fire incidents in NYC is "Medical - Assist Civilian."
@@ -208,9 +208,9 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 ### Putting all visualizations together
 
-![Dashboard](assets/Dashboard_with_all_visualizations.png) 
+![Dashboard](assets/Dashboard_with_all_visualizations.pdf) 
 
-[Click here, to see a PDF versions](Dashboard_with_all_visualizations.pdf)
+[Click here, to see a PDF versions](assets/Dashboard_with_all_visualizations.pdf)
 
 
 ## Key insights :bulb:
@@ -230,6 +230,6 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 - [Queries using SODA](https://dev.socrata.com/docs/queries/)
 
-- [Kibana doesn't show any results in "Discover"](tab: https://stackoverflow.com/a/30781202/15333580) 
+- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580) 
 
 
