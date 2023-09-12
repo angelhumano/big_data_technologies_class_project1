@@ -97,7 +97,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 **Data colelction time**
 
-![collection_tim](images/data_collection_time.png)
+![collection_tim](asstes/data_collection_time.png)
 
 -  1 hour and 45 minutes
 
@@ -135,7 +135,7 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 - I collected 7,966,877 incidents.
 
-- 
+  
 
 <br>
 <br>
