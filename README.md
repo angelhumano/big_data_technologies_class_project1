@@ -1,6 +1,12 @@
 # big_data_technologies_class_project1
 
 This document is being updated at the moment.
+Task remaining:
+
+- Write project bites
+- Check spelling
+- Write insights
+- Wire lessons learned
 
 
 ## Project bites :chocolate_bar:
