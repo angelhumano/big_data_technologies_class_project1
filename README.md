@@ -105,7 +105,7 @@ After setting up an EC2 instance on AWS, I developed a Python script within Dock
 Build docker image
 docker build -t project01:1.0 .
 ```
-
+[See Docker file](Dockerfile) 
 
 
 ### Python scripting
