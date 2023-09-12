@@ -230,6 +230,6 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 
 - [Queries using SODA](https://dev.socrata.com/docs/queries/)
 
-- [Kibana doesn't show any results in "Discover"](tab: https://stackoverflow.com/a/30781202/15333580) 
+- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580) 
 
 
