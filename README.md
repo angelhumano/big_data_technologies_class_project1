@@ -1,9 +1,11 @@
-# big_data_technologies_class_project1
+# big_data_technologies_class_project1: Analyzing millions of NYC fire incident dispatch data   
 
+By Gabriel Fernandez
+Fall 2022 (Updated: Sept. 2023)
 
 ## Project bites :chocolate_bar:
 
-**Brief**: In this project, I leveraged Big Data tools to manage a dataset that surpassed a single machine's capabilities and transform raw data into valuable insight.**
+**Brief**: In this project, I leveraged Big Data tools to manage a dataset that surpassed a single machine's capabilities and transform raw data into valuable insight.
 
 **Key insights**: Investigate borough disparity, monitor zip code hotspots, explore the most frequent incident type further, and optimize resource planning for enhanced safety, property protection, and cost management.
 
