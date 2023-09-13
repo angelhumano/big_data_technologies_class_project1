@@ -3,15 +3,22 @@
 This document is being updated at the moment.
 Task remaining:
 
-- Write project bites
+
 - Check spelling
-- Write insights
 - Wire lessons learned
 
 
 ## Project bites :chocolate_bar:
 
 **Brief**: 
+
+OPtion A- In this project, I acquired skills in containerization, terminal usage, Python scripting, API-based data extraction, and Big Data Technologies like EC2 and AWS OpenSearch to handle a dataset too large for a single machine. Kibana was employed to convert raw data into valuable insights.
+
+
+Option B- In this project, I leveraged Big Data tools to manage a dataset that surpassed the capabilities of a single machine and to transform raw data into valuable insight.
+
+option C- In this project, I acquired skills in containerization, terminal usage, Python scripting, API for data extraction, and Big Data Technologies, including EC2, AWS OpenSearch (NoSQL database), and Kibana (dashboard) to transform raw data into valuable insights.
+
 
 **Key insights**: Investigate borough disparity, monitor zip code hotspots, explore the most frequent incident type further, and optimize resource planning for enhanced safety, property protection, and cost management.
 
