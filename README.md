@@ -67,15 +67,15 @@ Next, I took a moment to think about important questions and suitable indicators
 
 
 
-| Field Name                | Data Type | Field Description                                                           |
-|---------------------------|-----------|-------------------------------------------------------------------------------|
-| starfire_incident_id      | number    | an incident identifier comprising the 5 character julian date, 4 character alarm box number, 2 character number of incidents at the box so far for the day, 1 character borough code , 4 character sequence number.|
-| incident_datetime         | datetime  | The date and time of the incident.                                           |
-| incident_borough          | text      | The borough of the incident.                                                 |
-| zipcode                   | text      | The zip code of the incident.                                                |
-| incident_classification   | text      | The incident classification.                                                 |
-| engines_assigned_quantity | number    | The number of engine units assigned to the incident.                         |
-| ladders_assigned_quantity | number    | The number of ladder units assigned to the incident.                         |
+| Field Name                | Data Type   | Field Description                                                           |
+|---------------------------|-----------  |-----------------------------------------------------------------------------|
+| starfire_incident_id      | number      | an incident identifier comprising the 5 character julian date, 4 character alarm box number, 2 character number of incidents at the box so far for the day, 1 character borough code , 4 character sequence number.|
+| incident_datetime         | datetime    | The date and time of the incident.                                           |
+| incident_borough          | text        | The borough of the incident.                                                 |
+| zipcode                   | text        | The zip code of the incident.                                                |
+| incident_classification   | text        | The incident classification.                                                 |
+| engines_assigned_quantity | number      | The number of engine units assigned to the incident.                         |
+| ladders_assigned_quantity | number      | The number of ladder units assigned to the incident.                         |
 
 
 
@@ -121,6 +121,49 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 -  1 hour and 45 minutes
 
 - The minimum requirement was to collect 100,000 rows, but I collected almost 8 million rows.
+
+### User interphase
+
+In this project, I was required to use  environment variables to configure and run a Python script via the command-line interface (CLI). By setting these variables, I securely managed important configuration details such as API tokens and OpenSearch cluster information, ensuring a safe and flexible execution of the script
+
+
+#### Option A
+
+The script fetches and uploads data in batches defined by page_size multiplied by num_pages, excluding null values and instances where starfire_incident_id and incident_datetime are null.
+
+```shell
+
+docker run \
+-e DATASET_ID="8m42-w767" \
+-e APP_TOKEN="your_key" \
+-e ES_HOST="your_opensearch_domain" \
+-e ES_USERNAME="your_openseact_user_name" \
+-e ES_PASSWORD="_your_opensearch_password" \
+-e INDEX_NAME="fireincident" \
+project01:1.0 --page_size=100 --num_pages=5
+
+```
+
+#### Option B
+
+When num_pages is not specified, the script uploads the entire dataset in chunks of size determined by num_pages, excluding null values and cases where starfire_incident_id and incident_datetime are null.
+
+
+```shell
+
+docker run \
+-e DATASET_ID="8m42-w767" \
+-e APP_TOKEN="your_key" \
+-e ES_HOST="your_opensearch_domain" \
+-e ES_USERNAME="your_openseact_user_name" \
+-e ES_PASSWORD="_your_opensearch_password" \
+-e INDEX_NAME="fireincident" \
+project01:1.0 --page_size=50000
+
+
+```
+
+
 
 ### Project composition
 
@@ -249,7 +292,11 @@ I wrote a Python command-line interface that connected to the Fire Incident Disp
 - [Monitoring Application KPIs Using Structured Logging with Elasticsearch & Kibana](https://medium.com/@stavsofer/monitoring-application-kpi-structured-logging-elasticsearch-kibana-212183c7bbdf) 
 
 - [Queries using SODA](https://dev.socrata.com/docs/queries/)
+  
+- [Paging through data](https://dev.socrata.com/docs/paging.html#2.1)
 
-- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580) 
+
+- [Kibana doesn't show any results in "Discover"](https://stackoverflow.com/a/30781202/15333580)
+  
 
 
