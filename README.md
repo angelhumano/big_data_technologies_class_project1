@@ -1,4 +1,5 @@
-# big_data_technologies_class_project1: Analyzing millions of NYC fire incident dispatch data   
+
+# Analyzing millions of NYC fire incident dispatch data with Big Data Technologies 
 
 By Gabriel Fernandez
 Fall 2022 (Updated: Sept. 2023)
