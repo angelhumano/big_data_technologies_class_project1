@@ -273,9 +273,11 @@ project01:1.0 --page_size=50000
 [Click here, to see a PDF versions](assets/Dashboard_with_all_visualizations.pdf)
 
 
-## Key insights :bulb:
+## Key insights and recommendations :bulb:
 
+- Brooklyn reports consistently higher fire incidents. Investigate reasons behind this disparity and allocate additional resources for targeted prevention and response in high-incidence areas.
 
+- Zip Code Hotspots: Zip Top five zip codes, including 11212, 10456, 11207, 10029, and 10467, need extra resources and attention to tackle fire-related challenges
 
 
 ### Lessons learned :sparkles:
