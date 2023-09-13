@@ -1,5 +1,5 @@
 
-# Analyzing millions of NYC fire incident dispatch data with Big Data Technologies 
+# Analyzing millions of NYC fire incident dispatch data with Big Data Technologies :books::mag: 
 
 By Gabriel Fernandez <br>
 Fall 2022 (Updated: Sept. 2023)
