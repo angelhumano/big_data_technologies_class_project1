@@ -288,7 +288,7 @@ project01:1.0 --page_size=50000
 
 - From my experience, testing a simplified project in Jupyter Lab with a small data sample before deploying on EC2 was helpful. It helps catch potential issues early.
 
-- Cloud computing is like a buffet: it is cost-effective until you forget to stop eating when you are full! Remember to terminate your resources after you are done with your work.
+- Cloud computing, like a buffet, is cost-effective until you forget to stop eating when you are full! Remember to terminate your resources after you are done with your work.:warning:
 
 
 
