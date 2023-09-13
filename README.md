@@ -43,8 +43,6 @@ NYC Open Data provides free datasets, including large ones. They offer an API fo
 
 
 
-
-
 ## Questions and KPIs (Key Performance Indicators)
 
 Next, I took a moment to think about important questions and suitable indicators to enhance my understanding and analysis of the data. This was a purposeful step to make sure that my data exploration remained relevant and meaningful.
@@ -85,11 +83,11 @@ Next, I took a moment to think about important questions and suitable indicators
 ![project_workflow](project_workflow.png)
 ###  Tools
 
-- EC2 (Elastic Compute Cloud): A scalable cloud computing service by AWS for launching virtual servers.
-- Docker: A platform for developing, shipping, and running applications in containers.
-- Socrata Open Data API: Web service for accessing and manipulating datasets.
-- OpenSearch (NoSQL database): A search and analytics engine for handling large volumes of data, an open-source alternative to Elasticsearch.
-- AWS Kibana: A data visualization and exploration tool used for analyzing data stored in OpenSearch or Elasticsearch.
+- **EC2 (Elastic Compute Cloud)**: A scalable cloud computing service by AWS for launching virtual servers.
+- **Docke**r: A platform for developing, shipping, and running applications in containers.
+- **Socrata Open Data API**: Web service for accessing and manipulating datasets.
+- **OpenSearch (NoSQL database)**: A search and analytics engine for handling large volumes of data, an open-source alternative to Elasticsearch.
+- **AWS Kibana**: A data visualization and exploration tool used for analyzing data stored in OpenSearch or Elasticsearch.
 
 **Big data innfrastructure configuration**
 
