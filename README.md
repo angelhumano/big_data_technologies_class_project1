@@ -82,6 +82,7 @@ Next, I took a moment to think about important questions and suitable indicators
 
 ## Project workflow
 
+![project_workflow](project_workflow.png)
 ###  Tools
 
 - EC2 (Elastic Compute Cloud): A scalable cloud computing service by AWS for launching virtual servers.
