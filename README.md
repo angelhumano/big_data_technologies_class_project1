@@ -13,11 +13,11 @@ Task remaining:
 
 **Brief**: 
 
-**Key insights**: 
+**Key insights**: Investigate borough disparity, monitor zip code hotspots, explore the most frequent incident type further, and optimize resource planning for enhanced safety, property protection, and cost management.
 
-**Tools**: 
+**Tools**: EC2 (Elastic Compute Cloud), Docker, Python, Terminal, Socrata Open Data API, OpenSearch (NoSQL database), AWS Kibana.
 
-**Concepts**:
+**Concepts**: Infrastructure as a Service (IaaS), containerization, python scripting, data retrieval via API, NoSQL database management, data visualization with Kibana.
 
 
 
