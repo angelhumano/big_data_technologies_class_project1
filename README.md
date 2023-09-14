@@ -189,7 +189,7 @@ project01:1.0 --page_size=50000
 
 - I collected 7,966,877 incidents.
   
-- The minimum requirement was to collect 100,000 rows, but I collected almost 8 million rows.
+- The minimum requirement was to extract 100,000 rows, but I extracted almost 8 million rows.
 
   
 <br>
