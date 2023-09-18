@@ -1,8 +1,0 @@
-# Ignore .DS_Store files
-.DS_Store
-
-# Ignore a directory called 'temp'
-/temp
-
-# Ignore log files
-*.log
